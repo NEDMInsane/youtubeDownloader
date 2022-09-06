@@ -13,9 +13,9 @@ second arg is if you want audio only (-a or audio), or video (-v or video)
 if you do not have ffmpeg the audio file will be deleted after its downloaded,
 because i didnt add a check for ffmpeg.
 
-Arg Example:
-Audio Only
+Arg Example:</br>
+Audio Only</br>
 .../youtubeDownloader/@- 'python3 main.py youtube.com/watch?v=cam0o3sg -a'
 
-Video
+Video</br>
 .../youtubeDownloader/@- 'python3 main.py youtube.com/watch?v=cam03sg -video'
