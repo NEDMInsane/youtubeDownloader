@@ -81,11 +81,11 @@ if __name__ == "__main__":
         video_download(arg_url_input(sys.argv[1]))
     elif len(sys.argv) == 3:
         #print(str(sys.argv[2]))
-        if str(sys.argv[2]) == "-a" or str(sys.argv[2]) == "audio":
+        if str(sys.argv[2]) == "-a" or str(sys.argv[2]) == "-audio":
             audio_only_download(arg_url_input(str(sys.argv[1])))
-        elif str(sys.argv[2]) == "-v" or str(sys.argv[2]) == "video":
+        elif str(sys.argv[2]) == "-v" or str(sys.argv[2]) == "-video":
             video_download(arg_url_input(str(sys.argv[1])))
-        elif str(sys.argv[2]) == "-t" or str(sys.argv[2]) == "title":
+        elif str(sys.argv[2]) == "-t" or str(sys.argv[2]) == "-title":
             get_vid_name(arg_url_input(str(sys.argv[1])))
     else:
         # I might use a java application to call this script later,
